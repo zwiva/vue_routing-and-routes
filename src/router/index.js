@@ -76,7 +76,7 @@ const routes = [
       {
         path: "1",
         component: () => import("../views/Articulo.vue"),
-        name:"LastPost",
+        name: "LastPost",
         meta: {
           header: true,
           title: "Chevrolet presenta la totalmente nueva Blazer",
@@ -87,7 +87,6 @@ const routes = [
       },
     ],
     redirect: "/notfound",
-
   },
 ];
 

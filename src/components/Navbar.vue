@@ -33,7 +33,7 @@
           <li class="nav-item" role="presentation">
             <!-- REEMPLAZAR CON ELEMENTO ROUTER LINK A RUTA ESTÁTICA -->
             <!-- <a href="/post/1">último post</a> -->
-            <router-link :to="{name:'LastPost'}">Ultimo post</router-link>
+            <router-link :to="{ name: 'LastPost' }">Ultimo post</router-link>
           </li>
         </ul>
       </div>

@@ -1,16 +1,14 @@
 <template>
-<div>
-   <router-view />
-</div>
+  <div>
+    <router-view />
+  </div>
 </template>
 
 <script>
 export default {
-  name: "Post"
-
-}
+  name: "Post",
+};
 </script>
 
 <style>
-
 </style>
