@@ -65,7 +65,6 @@ const routes = [
   },
   {
     path: "*",
-    component: () => import("../views/NotFound.vue"),
     redirect: "/notfound",
   },
   {
